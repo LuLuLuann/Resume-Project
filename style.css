@@ -1,0 +1,175 @@
+body{
+background-color: aqua;
+font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h2{
+    text-align: center;
+
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+}
+
+#section1{ 
+   border: 3px dashed hotpink; 
+   border-radius: 30%; 
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-around; 
+background: rgb(7, 119, 119);
+}
+
+#contactInfo{
+    border: 10px dotted rgb(87, 141, 243);
+padding: 10px; 
+text-align: center;
+background: yellow;
+border-radius: 50%;
+margin:10px; 
+height: 300px; 
+
+}
+
+#section1A{ 
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: end; */
+ }
+
+#myName{font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+}
+
+#myPhoto{
+    border-radius:100%;
+    padding-right:8px; 
+    padding-bottom: 10px;
+    /* box-shadow:5x 5px 35px red;  */
+}
+
+
+#jobSummary{
+    border: 3px dashed yellow; 
+    padding-left: 10px;
+    /* background: rgb(144, 176, 236); */
+    background: rgb(243, 155, 199);
+    border-radius: 30px;
+    
+}
+
+/* section2 <div> combines job history and education <div> into 1 section */
+#section2{ 
+    display:flex;    
+}
+
+/* #jobHistory is for each individual job */
+#jobHistory{
+    /* border: 5px solid black; */
+    display: flex;
+    /* flex:70%; GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG */
+    flex-direction: column; 
+    flex-wrap: wrap;
+  }
+
+  /* .jobHistory is for whole section */
+.jobHistory{
+    border: 3px dashed yellow;
+    padding: 10px; 
+    margin:10px;
+    background: rgb(144, 176, 236);
+    border-radius: 30px;
+}
+
+#ed{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex:30%; 
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    
+}
+
+.education{
+    border: 3px dashed hotpink;
+    border-radius: 50%;
+    background: yellow;
+   padding: 20px;
+    text-align:center;
+}
+
+/* section 3 targets programming skills and design skills together as one section */
+#section3{ 
+    display:flex; 
+}
+
+.prog{
+    display:flex;
+    flex:70%; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 10px 10px 10px;
+}
+
+.programmingSkills{
+    border: 3px dashed hotpink;
+    background: yellow;
+    border-radius: 50px; 
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    text-align:center;
+}
+
+.graph{
+    display:flex;
+    /* flex:30%;  GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* commented out code in this section is just alternative design colors and gradients */
+.graphicSkills{
+    height:auto;
+    width:200px;
+    /* border: 3px dashed hotpink; */
+    /* background: yellow; */
+    border-radius: 50px; 
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align:center; 
+    
+    border: 0px;
+    /* background: radial-gradient(hotpink, rgb(144, 176, 236));  */
+
+    background: radial-gradient(closest-side, rgb(144, 176, 236), aqua, hotpink);
+
+    /* background: radial-gradient(ellipse at top, #ee288b, transparent),   radial-gradient(ellipse at bottom, #b506fa, transparent);  */
+
+    box-shadow: 8px 10px 10px yellow; 
+}
+
+.lang{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.languageSkills{
+    border: 3px dashed hotpink;
+    background: yellow;
+    border-radius: 50px; 
+    padding: 15px;
+    text-align:center;
+    }
